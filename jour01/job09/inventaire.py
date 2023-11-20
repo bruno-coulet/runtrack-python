@@ -30,12 +30,13 @@ wanted=input ("Combien de cocottes voulez-vous acheter ?")
 # vérifie que l'utilisateur demande un chiffre entier de cocotte
 try:
     wanted = int(wanted)
-except ValueError:
+                        # Il faut mettre le stock à jour avant l'except ValueError ci-dessous
+                        # Car si l'utillisateur n'entre pas un entier, la variable wanted devient la chaine de charactères du message d'erreur
+    product_quantity = product_quantity_update - wanted
+    print(f"Quantité disponible après nouvelle commande: {product_quantity}")
+except ValueError:      # Message d'erreur !!!!!!!
     print("Merci d'entrer un nombre entier, nous ne vendons pas de demi cocotte.")
 
-# mettre le stock à jour.
-product_quantity = product_quantity_update - wanted
-print(f"Quantité disponible après nouvelle commande: {product_quantity}")
 
 
 # 10 % Inflation, price update
