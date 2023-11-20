@@ -8,6 +8,12 @@
 #     print(chr(i), end=' ')
 # print("\n")
 
+
+
 # Recherche gogol : pyhton module alphabet > https://www.delftstack.com/
-import string
-print(string.ascii_lowercase)
+
+import string                    # importe le module Python string
+
+# La constante string.ascii_lowercase contient les 26 caractères minuscules de l'alphabet au format chaîne.
+
+print(string.ascii_lowercase)   # affiche le contenu de la constante sous forme de chaîne.

@@ -1,13 +1,8 @@
-#   Affiche l'alphabet :
-# import string
-# print(string.ascii_lowercase)
+#   Afficher l'alphabet inversé
 
-import string
+import string   # importe le module Python string
 
-# def alphabet():
-#     alphabet=(string.ascii_lowercase)
-#     return alphabet
-
+# La constante string.ascii_lowercase contient les 26 caractères minuscules de l'alphabet au format chaîne.
 
 alphabet_inverse = ''.join(reversed(string.ascii_lowercase))
 

@@ -7,4 +7,4 @@ num2=2              #   crée la variable num2 avec la valeur 2
 
 calcul=(num1+num2)  #   la variable calcul stocke somme des variables num1 et num2
 
-print(calcul)       #   affiche la variable calcul
+print(calcul)       #   affiche la valeur stocké dans variable calcul
