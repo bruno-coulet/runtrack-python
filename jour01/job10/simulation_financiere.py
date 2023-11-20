@@ -1,7 +1,7 @@
 # Initialiser deux variables
 
 invest = int(input("Investissement initial :")) #   variable : montant initial de l’investissement
-rate = int(input("Taux de rendement annuel :")) #   variable : taux de rendement annuel en pourcentage.
+rate = float(input("Taux de rendement annuel :")) #   variable : taux de rendement annuel en pourcentage.
 
 
 
