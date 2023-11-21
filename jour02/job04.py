@@ -5,19 +5,20 @@
 n=int(input("Saississez un entier supérieur à zéro s\'il vous plait : "))
 
 
-while n <= 0:                                       # vérifie que n est un entier positif
+while n <= 0:                                    # vérifie que n est un entier positif
     n=int(input("Un entier supérieur à zéro s\'il vous plait, sinon ça ne marche pas : "))
 
 
-table=1                                             # commence avec 1
+table=1                                          # commence avec la table de 1
 
-while table<=n:                                      # Passe à la table de multiplication suivante
-    i=1                                      # tant que table est inférieur à n
+while table<=n:                                  # tant que table est inférieur à n
+    
+    i=1                                          # initialise i
 
     print(f"Table de multiplication de {table}") # annonce la table de multiplication en cours
 
-    while i<=10:                                 # Tant que i est inférieur à n
-        print(f"{table} x {i} = {table * i}")    # Affiche la table de multiplication en cours     
+    while i<=10:                                 # tant que i est inférieur ou égale à 10
+        print(f"{table} x {i} = {table * i}")    # affiche le calcul en cours     
         i+=1                                     # incrémente i
 
-    table+=1                                      # incrémente i
+    table+=1                                     # incrémente la table de multiplication
