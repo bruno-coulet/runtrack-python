@@ -13,5 +13,9 @@
 
 alphabet="abcdefghijklmnopqrstuvwxyz"*10
 
-for i in range(len(alphabet)):  # tant que i est entre 0 et 25 (26 lettres de l'alphabet)
-    print(alphabet[:i])       # affiche du début jusqu'à i et incrémente i
+#for i in range(len(alphabet)):  # tant que i est entre 0 et 25 (26 lettres de l'alphabet) puis incrémente i
+#    print(alphabet[:i])         # affiche du début jusqu'à i
+
+for i in range(0, len(alphabet), 2):        # même chose avec une itération de 2
+    print(alphabet[:i])
+
