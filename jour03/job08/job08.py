@@ -15,7 +15,7 @@ def miam(type, saison):                       # Créer une fonction qui prend 2 
     else :
         print("mangez de la viande !")
 
-miam("fruits", "été")                         # appel de la fonction popur voir
+miam("fruits", "été")                         # appel de la fonction pour voir
 miam("fruits", "hiver")
 miam("legume", "été")
 miam("legume", "hiver")

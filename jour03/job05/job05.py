@@ -32,7 +32,7 @@ def calcule(num1, operator, num2):      #   initialise la fonction
     return resultat                     #   la fonction retourne la variable resultat
 
 
-#print(calcule(1, "+", 2))               #   appel la fonction poour vérifier
+# print(calcule(1, "+", 2))               #   appel la fonction pour vérifier
 
 
 
