@@ -7,4 +7,4 @@ def verger():
     return fruits
 
 
-print(verger())     # == print (fruits)  donc cela affiche la liste
+#print(verger())     # appel la function et en même temps cela équivayt à print (fruits)  donc cela affiche la liste
