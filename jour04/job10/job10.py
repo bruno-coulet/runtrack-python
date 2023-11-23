@@ -9,7 +9,7 @@ def calcule():
     for i in L:
         if 25<i<90:
             calcul_list.append(i)
-    print(sum(calcul_list))
+    print("le produit de toutes les valeurs de la liste comprises dans l’intervalle [25, 90] est  : ",sum(calcul_list))
 
 calcule()
 
