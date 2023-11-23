@@ -4,6 +4,7 @@
 
 def time_to_text(number):
     if isinstance(number, int) and number>=0:
+        hour=0
         if number<=59:
             print(f"0 heures et {number} minutes")
             return

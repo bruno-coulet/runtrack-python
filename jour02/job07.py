@@ -19,3 +19,8 @@ alphabet="abcdefghijklmnopqrstuvwxyz"*10
 for i in range(0, len(alphabet), 2):        # même chose avec une itération de 2
     print(alphabet[:i])
 
+
+# for i in range(1,10):
+#     subset = alphabet[:i*2-1]
+#     repeated_subset = (subset*2)[:i*2-1]
+#     print (repeated_subset)
