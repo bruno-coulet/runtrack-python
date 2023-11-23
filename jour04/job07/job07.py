@@ -9,5 +9,5 @@ def multiple_de_3():
             x3+=1               # ça incrémente la variable x3              
     print(x3)                   # affiche x3
 
-
+ 
 multiple_de_3()
